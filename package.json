@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlyciamRiley/penrod-weather/issues"
   },
-  "homepage": "https://github.com/AlyciamRiley/penrod-weather#readme"
+  "homepage": "https://github.com/AlyciamRiley/penrod-weather#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
