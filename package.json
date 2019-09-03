@@ -1,0 +1,20 @@
+{
+  "name": "penrod",
+  "version": "1.0.0",
+  "description": "Weather app for all Penrod locations",
+  "main": "app.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlyciamRiley/penrod-weather.git"
+  },
+  "author": "Alycia Riley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlyciamRiley/penrod-weather/issues"
+  },
+  "homepage": "https://github.com/AlyciamRiley/penrod-weather#readme"
+}
