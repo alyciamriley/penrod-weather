@@ -1,0 +1,28 @@
+{
+  "name": "penrod-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack src/index.js --output bin/app.js -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlyciamRiley/penrod-weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlyciamRiley/penrod-weather/issues"
+  },
+  "homepage": "https://github.com/AlyciamRiley/penrod-weather#readme",
+  "dependencies": {
+    "mithril": "^2.0.4"
+  },
+  "devDependencies": {
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
