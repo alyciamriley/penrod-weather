@@ -1,4 +1,7 @@
 import m from "mithril";
-var weatherCard = require("./views/weatherCard");
+var root = document.body;
+var Theme = require("./views/theme")
 
-m.mount(document.body, weatherCard);
+m.route(root, "/splash", {
+    "/splash": Theme,
+})

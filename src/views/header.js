@@ -1,13 +1,8 @@
-// var m = require("mithril")
+var m = require("mithril")
 
-// module.exports = {
-//     view: function() {
-//         return m("form", "[
-//             m("label.label", "First name"),
-//             m("input.input[type=text][placeholder=First name]"),
-//             m("label.label", "Last name"),
-//             m("input.input[placeholder=Last name]"),
-//             m("button.button[type=button]", "Save"),
-//         ]")
-//     }
-// }
+var Header = { 
+    view: function() {
+       return m("h1.page-header", "hi")
+    }
+}
+module.exports = Header;
