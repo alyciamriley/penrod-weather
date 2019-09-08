@@ -1,0 +1,12 @@
+body {
+    margin: 25px;
+}
+
+.slds-card__header.slds-grid {
+    background-color: rgba(21,137,238,0.4);
+    color: #2b2826
+}
+
+.sld-box {
+    padding: 0;
+}
