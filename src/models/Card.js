@@ -10,7 +10,6 @@ var Card = {
         })
         .then(function(city) {
            Card.cities = city.list;
-           console.log("cities card",Card.cities);
         })
     },
 }
