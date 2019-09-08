@@ -5,8 +5,8 @@ var Header = require("./header")
 
 var Theme = {
     view: function() {
-      return m(weatherCard),
-      m(Header)
+      return m(Header),
+      m(weatherCard)
     }
 }
 module.exports = Theme;

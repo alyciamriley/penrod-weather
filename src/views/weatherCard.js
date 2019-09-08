@@ -1,12 +1,10 @@
 var m = require("mithril")
 var Card = require("../models/Card")
-var Header = require("./header")
 
-module.exports = {
+var weatherCard = {
     oninit: Card.loadCities,
     view: function() {
-
-       return m(".card-container slds-grid slds-gutters slds-size_1-of-4 slds-box_medium", Card.cities.map(function(city) {
+    return m(".card-container slds-grid slds-gutters slds-size_1-of-4 slds-box_medium", Card.cities.map(function(city) {
             return m("article", {class: "slds-box slds-box_large slds-text-align_center slds-m-around_x-small"},
              [
                  m(".slds-card__header slds-grid", [ 
@@ -15,7 +13,8 @@ module.exports = {
                 m(".slds-media__body slds-text-heading_medium", city.main.temp),
             ])
         }))
-       
-    
     }
 }
+
+
+module.exports = weatherCard;
