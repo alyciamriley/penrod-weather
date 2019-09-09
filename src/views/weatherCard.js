@@ -36,7 +36,7 @@ var weatherCard = {
                             }, city.name),
                         ]),
                         
-                        m(".slds-media__body slds-text-heading_medium", temp, [
+                        m(".slds-media__body slds-text-heading_medium temp", temp, [
                             m(".climate", weather, [
                                 m("img", {
                                     src: icon,
