@@ -2,6 +2,11 @@ body {
     margin: 25px;
 }
 
+html {
+    background-color: #ffffff;
+}
+
+
 .slds-card__header.slds-grid {
     background-color: rgba(21,137,238,0.4);
     color: #2b2826
@@ -11,10 +16,20 @@ body {
     padding: 0;
 }
 
-.slds-grid.header {
-    display: -ms-flexbox;
-    display: flex;
-    width: 500px;
+.slds-page-header {
+    background-color: #ffffff;
+}
+
+.slds-media__body {
+    align-self: flex-end;
+}
+
+.slds-page-header__title {
+    font-size: 5.125rem;
+}
+
+.slds-page-header__name-meta {
+    font-size: 1.75rem;
 }
 
 .card-container {
@@ -28,4 +43,9 @@ body {
 
 article.slds-box.slds-box_large.slds-text-align_center.slds-m-around_x-small {
     order: 1;
+}
+
+img {
+    width: 100px;
+    height: 100px;
 }
