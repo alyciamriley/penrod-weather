@@ -82,13 +82,36 @@ html {
 .slds-text-heading_large {
     font-family: "SalesforceSans-Bold";
     justify-content: center;
-    
 }
 
+.temp {
+    font-family: "SalesforceSans-Bold";
+    font-size: 1.75rem;
+    padding: 1em;
+}
+
+.icon {
+    padding-top: 1.4rem;
+}
+
+.climate {
+    font-family: "SalesforceSans-Regular";
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.climate img{
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    
+}
 article.slds-box.slds-box_large.slds-text-align_center.slds-m-around_x-small {
     order: 1;
     height: 350px;
-    width: 350px;
+    width: 100%;
     animation: moveInBottom 2s 1;
 }
 

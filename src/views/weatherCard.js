@@ -25,6 +25,8 @@ var weatherCard = {
                 icon="src/icons/thunder.png"
             } if (weather == "Snow") {
                 icon="src/icons/snow.png"
+            } if (weather == "Mist"){
+                icon = "src/icons/mist.png"
             }
                 return m("article", {
                         class: "slds-box slds-box_large slds-text-align_center slds-m-around_x-small"
@@ -36,13 +38,16 @@ var weatherCard = {
                             }, city.name),
                         ]),
                         
-                        m(".slds-media__body slds-text-heading_medium temp", temp, [
+                        m(".slds-media__body slds-text-heading_medium temp  ", temp),
                             m(".climate", weather, [
-                                m("img", {
-                                    src: icon,
-                                })
+                                m(".icon", [
+                                    m("img", {
+                                        src: icon,
+                                    })
+
+                                ])
+
                             ])
-                        ]),
 
                     ])
             }),
