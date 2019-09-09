@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
 
 //Static directory
-app.use(express.static(path.join(__dirname)));
+app.use(express.static(path.join(__dirname + '/src')));
 
 
 app.listen(PORT, function() {
