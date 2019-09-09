@@ -10,3 +10,22 @@ body {
 .sld-box {
     padding: 0;
 }
+
+.slds-grid.header {
+    display: -ms-flexbox;
+    display: flex;
+    width: 500px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container-sub {
+    display: flex;
+}
+
+article.slds-box.slds-box_large.slds-text-align_center.slds-m-around_x-small {
+    order: 1;
+}
