@@ -1,21 +1,14 @@
-//Dependencies
+const express = require('express');
+const path = require('path');
+const port = process.env.PORT || 8080;
+const app = express();
 
-var express = require("express");
-var bodyParser = require("body-parser");
+// the __dirname is the current directory from where the script is running
+app.use(express.static(__dirname));
 
+// send the user to index html page inspite of the url
+app.get('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'index.html'));
+});
 
-//Sets up express app
-var app = express();
-var PORT = process.env.PORT || 3000;
-
-//parse application
-app.use(bodyParser.urlencoded({ extended: false}));
-app.use(bodyParser.json());
-
-//Static directory
-app.use(express.static(path.join(__dirname + '/src')));
-
-
-app.listen(PORT, function() {
-    console.log("app listening on PORT" + PORT);
-})
+app.listen(port);
