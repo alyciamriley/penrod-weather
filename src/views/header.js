@@ -2,9 +2,6 @@ var m = require("mithril")
 
 var Header = { 
     view: function() {
-    //    return m(".slds-page-header logo", m("img", {
-    //         src: "src/views/icon.jpg",
-    //     }))
     return m(".slds-page-header", [
         m(".slds-page-header__row", [
             m(".slds-page-header__col-title", [
