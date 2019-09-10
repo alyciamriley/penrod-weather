@@ -9,6 +9,9 @@
 - Webpack
 - Express
 
+## Motivation
+I chose to use the Mithril framework as it is a simplified version of other single page frameworks like React and Angular. This is a small application, but Mithril is highly scalable as it allows for creating separate components and routing when more features are needed. 
+
 ## Getting Started
 https://warm-fortress-48297.herokuapp.com/#!/splash
 
