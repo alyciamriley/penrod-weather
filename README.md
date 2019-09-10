@@ -5,6 +5,7 @@
 ## Technologies Used
 - Mithril.js
 - Lightning Design System
+- OpenWeather API
 - Node.js
 - Webpack
 - Express
