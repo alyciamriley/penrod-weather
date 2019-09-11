@@ -16,22 +16,22 @@ var weatherCard = {
                 var icon;
                 //get icons
                 if (weather == "Clear") {
-                    icon = "src/icons/sunny.png"
+                    icon = "src/images/icons/sunny.png"
                 }
                 if (weather == "Rain") {
-                    icon = "src/icons/rain.png"
+                    icon = "src/images/icons/rain.png"
                 }
                 if (weather == "Clouds") {
-                    icon = "src/icons/cloudy.png"
+                    icon = "src/images/icons/cloudy.png"
                 }
                 if (weather == "Thunderstorm") {
-                    icon = "src/icons/thunder.png"
+                    icon = "src/images/icons/thunder.png"
                 }
                 if (weather == "Snow") {
-                    icon = "src/icons/snow.png"
+                    icon = "src/images/icons/snow.png"
                 }
                 if (weather == "Mist") {
-                    icon = "src/icons/mist.png"
+                    icon = "src/images/icons/mist.png"
                 }
                 return m("article", {
                         class: "slds-box slds-box_large slds-text-align_center slds-m-around_x-small"

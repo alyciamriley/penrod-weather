@@ -9,7 +9,7 @@ var Header = {
                     m(".slds-media__figure", [
                         m("span", {class: "slds-icon_container slds-icon-standard-opportunity"}, [
                             m("img", {
-                                src: "src/views/icon.jpg"
+                                src: "src/images/icon.jpg"
                             })
                         ])
                     ])
