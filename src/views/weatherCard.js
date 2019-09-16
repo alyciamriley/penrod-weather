@@ -1,5 +1,5 @@
 var m = require("mithril")
-var Card = require("../models/Card")
+// var Card = require("../models/Card")
 var Header = require("../views/header")
 var searchBar = require("../views/searchBar")
 
